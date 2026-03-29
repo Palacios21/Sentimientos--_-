@@ -6,7 +6,7 @@ import json
 from PIL import Image
 from googletrans import Translator
 
-st.title('Analisamos tus sentimientos.')
+st.title('Analizamos tus sentimientos.')
 image = Image.open('Happy.webp')
 st.image(image)
 st.subheader("Por favor escribe en el campo de texto la frase que deseas analizar")
