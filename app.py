@@ -6,8 +6,8 @@ import json
 from PIL import Image
 from googletrans import Translator
 
-st.title('Análisis de Sentimiento')
-image = Image.open('emoticones.jpg')
+st.title('Analisamos tus sentimientos.')
+image = Image.open('https://github.com/Palacios21/Sentimientos--_-/blob/24970229c192288044428e8ffcc49465ea5652c0/Happy.webp')
 st.image(image)
 st.subheader("Por favor escribe en el campo de texto la frase que deseas analizar")
 
